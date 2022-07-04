@@ -13,8 +13,6 @@ public class InputStream {
                 Vehicle v2 = (Vehicle) ois.readObject();
                 System.out.println("Vehicle1: "+ v1);
                 System.out.println("Vehicle2: "+ v2);
-                fio.close();
-                ois.close();
             } catch (ClassNotFoundException e) {
                 e.printStackTrace();
             }
